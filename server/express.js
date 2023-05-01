@@ -44,7 +44,7 @@ const PostSchema = new mongoose.Schema({
     required: true,
   },
   img: {
-    type: String,
+    type: Bindata,
     required: false,
   },
   user_create: {
